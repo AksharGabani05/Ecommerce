@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Shop | Chckout</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/sass/style.css">
+</head>
+<body>
+<!--Header section-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/ecommerce-logo-png-11.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catagory.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="electronic.html">Electonic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="book.html">book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="vegetable.html">Vegitables</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="cloth.html">Clothe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="drink.html">Drinks</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 action-menu">
+                    <form class="search-form">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                    </form>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                       
+                        <a class=" nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-cart-shopping position-relative"><span style="font-size: 12px"
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1 </span></i>
+                                
+                            </i>
+                          </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                           <i class="fa-solid fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="login.html">Login</a></li>
+                            <li><a class="dropdown-item" href="regester.html">Register</a></li>
+                            <li><a class="dropdown-item" href="login.html">log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container py-5">
+    <div class="py-5 text-center">
+      
+      <h2>Checkout form</h2>
+      <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-4 order-md-2 mb-4">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-muted">Your cart</span>
+          <span class="badge badge-secondary badge-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Baby boy clothes</h6>
+              <small class="text-muted">Pbaby boy vhackbdungaree & pink shirt dress for baby boy , cloth dungree set for baby boy color - pink</small>
+            </div>
+            <span class="text-muted">₹ 549.00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0"> Iphon 13 Pro Max</h6>
+              <small class="text-muted">brand apple modal name iphon network service provide to coustomer oparating syastemn connectivity</small>
+            </div>
+            <span class="text-muted">₹ 1,39,000</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Monster Energy Drink</h6>
+              <small class="text-muted">best energy drink is the monster this drink is the best and powerfull drink</small>
+            </div>
+            <span class="text-muted">₹ 69.00</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+              <h6 class="my-0">Promo code</h6>
+              <small>EXAMPLECODE</small>
+            </div>
+            <span class="text-success">-₹ 399</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total (USD)</span>
+            <strong>₹ 1,39,219</strong>
+          </li>
+        </ul>
+  
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Promo code">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-secondary">Redeem</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8 order-md-1">
+        <h4 class="mb-3">Billing address</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="username">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback" style="width: 100%;">
+                Your username is required.
+              </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+            <div class="invalid-feedback">
+              Please enter your shipping address.
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+          </div>
+  
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="country">Country</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">Choose...</option>
+                <option>India</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="state">State</label>
+              <select class="custom-select d-block w-100" id="state" required>
+                <option value="">Choose...</option>
+                <option>Gujarat</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="zip">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="save-info">
+            <label class="custom-control-label" for="save-info">Save this information for next time</label>
+          </div>
+          <hr class="mb-4">
+  
+          <h4 class="mb-3">Payment</h4>
+  
+          <div class="d-block my-3">
+            <div class="custom-control custom-radio">
+              <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+              <label class="custom-control-label" for="credit">Credit card</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+              <label class="custom-control-label" for="debit">Debit card</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+              <label class="custom-control-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="cc-name">Name on card</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">Full name as displayed on card</small>
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="cc-number">Credit card number</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <label for="cc-expiration">Expiration</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                Expiration date required
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="cc-cvv">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary color-white btn-lg btn-block" type="submit"><a href="inde.html">Continue to checkout</a></button>
+        </form>
+      </div>
+    </div>
+</div>
+<footer class="border-top py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="assets/images/ecommerce-logo-png-11.png" height="40" alt="">
+                <h4 class="mt-3">Get the app</h4>
+                <p>UniQue App is now available on Google Play & App Store. Get it now.</p>
+                <img src="assets/images/store1.png" alt="">
+                <img src="assets/images/store2.png" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4>Information</h4>
+                <ul class="footer-list">
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Shipping Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4>User Area</h4>
+                <ul class="footer-list">
+                    <li><a href="">My account</a></li>
+                    <li><a href="">My Cart</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Checkout</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4>Contact Info</h4>
+                <p>+91 9265947002</p>
+                <p>123, haridarshan socy, katargam, surat, 395005</p>
+                <p>akshargabani9425@gmail.com</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/akshar_gabani__/?igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i class="fa-brands fa-instagram pe-3 fs-2 text-muted"></i></a>
+                    <a href="https://www.facebook.com/akshar.patidar.12?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook pe-3 fs-2 text-muted"></i></a>
+                    <a href="assets/images/Akshar Gabani.jpg" target="_blank"><i class="fa-brands fa-whatsapp pe-3 fs-2 text-muted"></i></a>
+                    <a href="https://www.linkedin.com/in/akshar-gabani-149477253/" target="_blank"><i class="fa-brands fa-linkedin pe-3 fs-2 text-muted"></i></a>
+                    <a href="https://www.behance.net/akshargabani1" target="_blank"><i class="fa-brands fa-behance pe-3 fs-2 text-muted"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright-text mt-3 text-center">
+            <a href="#">Copyright © 2023 <span class="text-dark fw-bold">Web</span>
+                <span  class="text-danger fw-bold">Devlop by -</span><span class="text-dark fw-bold"> Akshar</span>
+                <span  class="text-danger fw-bold">gabani</span></a>
+        </div>
+    </div>
+</footer>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+
+  <div class="loading" id="loader">
+    <img src="assets/images/preloader.svg" alt="">
+</div>
+
+<script>
+    setTimeout(() => {
+        document.getElementById('loader').style.display= "none"
+    },1000)
+</script>
+
+<!-- header sticy -->
+<script>
+    $(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+        $('nav').addClass('header');
+        $('nav div').addClass('visible-title');
+    }
+    else {
+        $('nav').removeClass('header');
+        $('nav div').removeClass('visible-title');
+    }
+});
+</script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
